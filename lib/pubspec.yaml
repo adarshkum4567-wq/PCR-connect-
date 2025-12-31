@@ -8,18 +8,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # GPS aur Location ke liye
-  geolocator: ^10.1.0
-  # Firebase connection ke liye
-  firebase_core: ^2.24.2
-  firebase_database: ^10.3.7
-  # Permissions handle karne ke liye
-  permission_handler: ^11.0.1
+  # Hum 'any' use karenge taaki Codemagic bina error ke build kare
+  geolocator: any
+  firebase_core: any
+  firebase_database: any
+  permission_handler: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: any
 
 flutter:
   uses-material-design: true
