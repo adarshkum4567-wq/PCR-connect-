@@ -1,0 +1,25 @@
+name: gps_saver_sos
+description: A Flutter based SOS Emergency Application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # GPS aur Location ke liye
+  geolocator: ^10.1.0
+  # Firebase connection ke liye
+  firebase_core: ^2.24.2
+  firebase_database: ^10.3.7
+  # Permissions handle karne ke liye
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
